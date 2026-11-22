@@ -1,0 +1,5 @@
+step,reference,page,operation,result,victim,dirty_writeback,frame_0,frame_1,frame_2,ref_0,ref_1,ref_2,next_hand
+1,7:R,7,R,FAULT,none,no,7/C,-,-,1,0,0,1
+2,0:W,0,W,FAULT,none,no,7/C,0/D,-,1,1,0,2
+3,1:R,1,R,FAULT,none,no,7/C,0/D,1/C,1,1,1,0
+4,2:W,2,W,FAULT,7,no,2/D,0/D,1/C,1,0,0,1

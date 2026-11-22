@@ -1,0 +1,7 @@
+policy,frames,references,hits,faults,evictions,dirty_writebacks,final_resident_dirty_pages,final_resident_dirty_count,total_modeled_time_us,average_modeled_time_us_per_reference
+FIFO,3,20,5,15,12,6,none,0,210020,10501.00
+LRU,3,20,8,12,9,4,1,1,160020,8001.00
+OPT,3,20,11,9,6,3,1,1,120020,6001.00
+CLOCK,3,20,6,14,11,5,none,0,190020,9501.00
+FIFO,3,12,3,9,6,0,none,0,90012,7501.00
+FIFO,4,12,2,10,6,0,none,0,100012,8334.33

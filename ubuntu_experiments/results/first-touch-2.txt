@@ -1,0 +1,7 @@
+===== first-touch run 2 =====
+pid=969 page_size=4096 mapping_bytes=16777216
+mapping only       minor_delta=0 major_delta=0
+first read         minor_delta=4096 major_delta=0
+first write        minor_delta=4096 major_delta=0
+repeat write       minor_delta=0 major_delta=0
+checksum=0 first_byte=2

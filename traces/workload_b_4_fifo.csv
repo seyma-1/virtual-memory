@@ -1,0 +1,13 @@
+step,reference,page,operation,result,victim,dirty_writeback,frame_0,frame_1,frame_2,frame_3
+1,1:R,1,R,FAULT,none,no,1/C,-,-,-
+2,2:R,2,R,FAULT,none,no,1/C,2/C,-,-
+3,3:R,3,R,FAULT,none,no,1/C,2/C,3/C,-
+4,4:R,4,R,FAULT,none,no,1/C,2/C,3/C,4/C
+5,1:R,1,R,HIT,none,no,1/C,2/C,3/C,4/C
+6,2:R,2,R,HIT,none,no,1/C,2/C,3/C,4/C
+7,5:R,5,R,FAULT,1,no,5/C,2/C,3/C,4/C
+8,1:R,1,R,FAULT,2,no,5/C,1/C,3/C,4/C
+9,2:R,2,R,FAULT,3,no,5/C,1/C,2/C,4/C
+10,3:R,3,R,FAULT,4,no,5/C,1/C,2/C,3/C
+11,4:R,4,R,FAULT,5,no,4/C,1/C,2/C,3/C
+12,5:R,5,R,FAULT,1,no,4/C,5/C,2/C,3/C

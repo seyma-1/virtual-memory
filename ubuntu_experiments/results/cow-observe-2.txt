@@ -1,0 +1,2 @@
+===== cow-observe run 2 =====
+child_private_value=9 parent_private_value=7
